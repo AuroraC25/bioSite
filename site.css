@@ -1,0 +1,74 @@
+header 
+{
+  text-align: center;
+  background-color: #790000; 
+  color: white;
+  padding: 20px 0;
+}
+
+header h1 
+{
+  font-size: 72px;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+  color: #FFFFFF;
+}
+
+
+nav {
+  display: flex;
+  justify-content: center; 
+  gap: 80px;                
+  margin-top: 10px;
+}
+
+nav a {
+  font-size: 36px;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #00E05D; 
+}
+
+
+
+
+
+main {
+  position: relative;
+  min-height: 100vh; /* full screen */
+}
+
+.main-content {
+  position: absolute;
+  top: 150px;    /* distance from top of viewport */
+  left: 50px;    /* distance from left edge */
+}
+
+.main-content h2 {
+  font-size: 72px;
+  margin: 0 0 20px 0;
+}
+
+.main-content p {
+  font-size: 36px;
+  margin: 0;
+}
+
+
+
+
+
+.home-page {
+    background-image: url('images/background.png');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	min-height: 100vh;
+    color: white;
+}
