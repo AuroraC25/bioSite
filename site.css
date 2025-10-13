@@ -15,14 +15,16 @@ header h1
 }
 
 
-nav {
+nav 
+{
   display: flex;
   justify-content: center; 
   gap: 80px;                
   margin-top: 10px;
 }
 
-nav a {
+nav a 
+{
   font-size: 36px;
   color: #FFFFFF;
   text-decoration: none;
@@ -30,31 +32,35 @@ nav a {
   transition: color 0.3s ease;
 }
 
-nav a:hover {
+nav a:hover 
+{
   color: #00E05D; 
 }
 
 
 
 
-
-main {
+main 
+{
   position: relative;
-  min-height: 100vh; /* full screen */
+  min-height: 100vh; 
 }
 
-.main-content {
-  position: absolute;
-  top: 150px;    /* distance from top of viewport */
-  left: 50px;    /* distance from left edge */
+.main-content 
+{
+  position: relative;
+  top: 50px;    
+  left: 50px;   
 }
 
-.main-content h2 {
+.main-content h2 
+{
   font-size: 72px;
   margin: 0 0 20px 0;
 }
 
-.main-content p {
+.main-content p 
+{
   font-size: 36px;
   margin: 0;
 }
@@ -63,7 +69,8 @@ main {
 
 
 
-.home-page {
+.home-page 
+{
     background-image: url('images/background.png');
     background-size: cover;
     background-position: center top;
@@ -71,4 +78,168 @@ main {
 	background-attachment: fixed;
 	min-height: 100vh;
     color: white;
+}
+
+
+
+
+
+.about-page 
+{
+  padding: 80px 0;
+  color: #d5726b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-container 
+{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 90%;
+  max-width: 1400px;
+  gap: 60px;
+}
+
+
+.about-image 
+{
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  border: 3px solid #d5726b;
+  align-self: flex-start;
+  margin-left: 8%;
+}
+
+
+.about-text 
+{
+  max-width: 700px;
+  font-size: 24px;
+  line-height: 1.6;
+  text-align: justify;
+  margin-right: 8%; 
+}
+
+.about-text p 
+{
+  text-indent: 50px; 
+  margin-bottom: 20px; 
+}
+
+
+
+
+
+
+
+.hobbies-page 
+{
+  padding: 60px 80px;
+  color: #d5726b;
+}
+
+
+.hobby 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 80px;
+}
+
+.hobby-image 
+{
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  border: 3px solid #d5726b;
+}
+
+.hobby-text 
+{
+  max-width: 700px;
+  font-size: 24px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.hobby-text p 
+{
+  text-indent: 50px;
+}
+
+
+
+
+
+
+.intro-buttons 
+{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 150px;
+}
+
+.reveal-btn 
+{
+  background-color: #790000;
+  color: white;
+  font-size: 24px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.reveal-btn:hover 
+{
+  background-color: #d5726b;
+  transform: scale(1.05);
+}
+
+
+.hidden-info 
+{
+  display: none;
+  text-align: center;
+  max-width: 900px;
+  margin: 20px auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 16px;
+  color: #fff;
+}
+
+.dropdown-container 
+{
+  display: flex;
+  align-items: flex-start; 
+  gap: 40px;               
+  max-width: 900px;
+  margin: 20px auto;       
+}
+
+.dropdown-image 
+{
+  width: 250px;            
+  height: auto;
+  border-radius: 12px;
+  border: 3px solid #d5726b;
+}
+
+.dropdown-text 
+{
+  flex: 1;                 
+  font-size: 24px;
+  line-height: 1.6;
+  text-align: justify;
+  text-indent: 50px;
 }
