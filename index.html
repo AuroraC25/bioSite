@@ -75,16 +75,28 @@
 								</div>
 							</main>
 							<script>
-  function toggleInfo(id) {
-    const sections = document.querySelectorAll('.hidden-info');
-    sections.forEach(section => {
-      if (section.id === id) {
-        section.style.display = section.style.display === 'block' ? 'none' : 'block';
-      } else {
-        section.style.display = 'none';
+function toggleInfo(id) {
+  const sections = document.querySelectorAll('.hidden-info');
+
+  sections.forEach(section => {
+    if (section.id === id) {
+      const isVisible = section.style.display === 'block';
+      section.style.display = isVisible ? 'none' : 'block';
+
+      // ✅ Scroll to the revealed section when it's opened
+      if (!isVisible) {
+        section.scrollIntoView({
+          behavior: "smooth",
+          block: "start"   // centers the revealed section vertically
+        });
       }
-    });
-  }
+
+    } else {
+      section.style.display = 'none';
+    }
+  });
+}
+
 </script>
 	<footer>
 		<span class="footer-left">&copy; 2025 Crippen</span>

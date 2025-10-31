@@ -270,18 +270,28 @@ figcaption {
 footer {
   position: fixed;
   bottom: 0;
-  left: 50%;
-  transform: translateX(-50%); /* centers it horizontally */
+  left: 0;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
   background-color: #790000;
   color: white;
-  text-align: center;
-  padding: 10px 20px; /* smaller height */
-  width: 100%;
-  font-size: 24px;
+
+  min-height: 30px;
+  padding: 6px 15px;
+  font-size: 12px;
+
   font-weight: bold;
   font-family: "Times New Roman", Times, serif;
+
   z-index: 1000;
   box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.4);
+
+  box-sizing: border-box;
 }
 
 .footer-left 
@@ -289,6 +299,10 @@ footer {
   color: white;  
   font-weight: 400;
   font-style: italic;
+}
+
+.footer-right {
+  white-space: nowrap;
 }
 
 .footer-right a 
