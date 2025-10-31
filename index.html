@@ -1,41 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-
-    <title>Aurora Crippen's bioSite Landing Page</title>
-	
-	<link rel="stylesheet" href="site.css">
+	<head>
+		<title>Aurora Crippen's bioSite Landing Page</title>
+		<link rel="stylesheet" href="site.css">
 	
 </head>
-
-<body class="home-page">
-
-    <header>
-        <h1>Aurora Crippen</h1>
-        <nav>
-            <a href="index.html">Home</a> |
+		<body class="home-page">
+			<header>
+				<h1>Aurora Crippen</h1>
+				<nav>
+					<a href="index.html">Home</a> |
             <a href="about.html">About</a> |
             <a href="hobbies.html">Hobbies</a>
-        </nav>
-    </header>
-
-<main>
-  <div class="main-content">
-    <h2>Meet Aurora</h2>
-    <p>a lifelong learner, creator, <br>and future app developer</p>
-  </div>  
-  
-      <section class="intro-buttons">
-      <button class="reveal-btn" onclick="toggleInfo('intro1')">Academic Achievements</button>
-      <button class="reveal-btn" onclick="toggleInfo('intro2')">Current Goals</button>
-      <button class="reveal-btn" onclick="toggleInfo('intro3')">Future Goals</button>
-    </section>
-	
-<div id="intro1" class="hidden-info">
-  <div class="dropdown-container">
-    <img src="images/academic.jpg" alt="Aurora studying" class="dropdown-image">
-    <div class="dropdown-text">
-      <p>
+				</nav>
+			</header>
+			<main>
+				<div class="main-content">
+					<h2>Meet Aurora</h2>
+					<p>a lifelong learner, creator, <br>and future app developer</p>
+					</div>
+					<section class="intro-buttons">
+						<button class="reveal-btn" onclick="toggleInfo('intro1')">Academic Achievements</button>
+						<button class="reveal-btn" onclick="toggleInfo('intro2')">Current Goals</button>
+						<button class="reveal-btn" onclick="toggleInfo('intro3')">Future Goals</button>
+					</section>
+					<div id="intro1" class="hidden-info">
+						<div class="dropdown-container">
+							<img src="images/academic.jpg" alt="Aurora studying" class="dropdown-image">
+								<div class="dropdown-text">
+									<p>
 	  
 		Aurora is especially proud of beginning her college
         journey at just 14 years old. She earned her associate’s
@@ -44,15 +37,14 @@
         career goals.
 
       </p>
-    </div>
-  </div>
-</div>
-
-<div id="intro2" class="hidden-info">
-  <div class="dropdown-container">
-    <img src="images/current.jpg" alt="Aurora working on goals" class="dropdown-image">
-    <div class="dropdown-text">
-      <p>
+								</div>
+							</div>
+						</div>
+						<div id="intro2" class="hidden-info">
+							<div class="dropdown-container">
+								<img src="images/current.jpg" alt="Aurora working on goals" class="dropdown-image">
+									<div class="dropdown-text">
+										<p>
 		
 		Aurora is now pursuing a bachelor’s degree in
         Computer Information Systems at Bellevue
@@ -61,15 +53,14 @@
         balancing her roles as a student, worker, and
         parent.
       </p>
-    </div>
-  </div>
-</div>
-
-<div id="intro3" class="hidden-info">
-  <div class="dropdown-container">
-    <img src="images/future.jpg" alt="Aurora's future plans" class="dropdown-image">
-    <div class="dropdown-text">
-      <p>
+									</div>
+								</div>
+							</div>
+							<div id="intro3" class="hidden-info">
+								<div class="dropdown-container">
+									<img src="images/future.jpg" alt="Aurora's future plans" class="dropdown-image">
+										<div class="dropdown-text">
+											<p>
         In the next five years, Aurora hopes to
         work as a mobile app developer at Sam’s
         Club, improving the apps that associates
@@ -79,16 +70,11 @@
         with her family while advancing her
         career in technology.
       </p>
-    </div>
-  </div>
-</div>
-  
-</main>
-
-
-
-
-<script>
+										</div>
+									</div>
+								</div>
+							</main>
+							<script>
   function toggleInfo(id) {
     const sections = document.querySelectorAll('.hidden-info');
     sections.forEach(section => {
@@ -100,11 +86,11 @@
     });
   }
 </script>
-
-<footer>
-  <p>Aurora Crippen | <a href="index.html">Back to Home</a></p>
-</footer>
-
-</body>
-
-</html>
+	<footer>
+		<span class="footer-left">&copy; 2025 Crippen</span>
+		<span class="footer-right">
+			<a href="https://AuroraC25.github.io/csd-340/" target="_blank">Back to Landing Page</a>
+		</span>
+	</footer>
+						</body>
+					</html>
