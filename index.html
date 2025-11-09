@@ -83,11 +83,11 @@ function toggleInfo(id) {
       const isVisible = section.style.display === 'block';
       section.style.display = isVisible ? 'none' : 'block';
 
-      // ✅ Scroll to the revealed section when it's opened
+
       if (!isVisible) {
         section.scrollIntoView({
           behavior: "smooth",
-          block: "start"   // centers the revealed section vertically
+          block: "start"   
         });
       }
 

@@ -7,12 +7,12 @@ header {
   background-color: #790000;
   color: white;
   padding: 20px 0;
-  z-index: 1000; /* keep it above other content */
+  z-index: 1000; 
 }
 
 header h1 
 {
-  font-size: 72px;
+  font-size: 50px;
   margin: 0;
   font-family: "Times New Roman", Times, serif;
   color: #FFFFFF;
@@ -29,7 +29,7 @@ nav
 
 nav a 
 {
-  font-size: 36px;
+  font-size: 25px;
   color: #FFFFFF;
   text-decoration: none;
   font-weight: bold;
@@ -38,7 +38,7 @@ nav a
 
 nav a:hover 
 {
-  color: #00E05D; 
+  color: #000000; 
 }
 
 
@@ -46,7 +46,7 @@ nav a:hover
 
 main {
   position: relative;
-  padding-top: 140px; /* roughly equal to your header height */
+  padding-top: 140px; 
   min-height: 100vh;
 }
 
@@ -59,13 +59,13 @@ main {
 
 .main-content h2 
 {
-  font-size: 72px;
+  font-size: 60px;
   margin: 0 0 20px 0;
 }
 
 .main-content p 
 {
-  font-size: 36px;
+  font-size: 25px;
   margin: 0;
 }
 
@@ -126,7 +126,7 @@ main {
 .about-text 
 {
   max-width: 700px;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.6;
   text-align: justify;
   margin-right: 8%; 
@@ -138,6 +138,11 @@ main {
   margin-bottom: 20px; 
 }
 
+.about-image-container 
+{
+  position: sticky;
+  top: 200px;
+}
 
 
 
@@ -171,7 +176,7 @@ main {
 .hobby-text 
 {
   max-width: 700px;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.6;
   text-align: justify;
 }
@@ -186,7 +191,7 @@ main {
 
 figcaption {
     text-align: center;
-    font-size: 24px;
+    font-size: 25px;
     color: #d5726b;
     margin-top: 10px;
 }
@@ -207,7 +212,7 @@ figcaption {
 {
   background-color: #790000;
   color: white;
-  font-size: 24px;
+  font-size: 20px;
   padding: 15px 30px;
   border: none;
   border-radius: 12px;
@@ -255,7 +260,7 @@ figcaption {
 .dropdown-text 
 {
   flex: 1;                 
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.6;
   text-align: justify;
   text-indent: 50px;
@@ -283,7 +288,7 @@ footer {
 
   min-height: 30px;
   padding: 6px 15px;
-  font-size: 12px;
+  font-size: 20px;
 
   font-weight: bold;
   font-family: "Times New Roman", Times, serif;
@@ -316,11 +321,11 @@ footer {
 
 
 footer a:hover {
-  color: #00E05D;
+  color: #000000;
 }
 
 
 body {
   margin: 0;
-  padding-bottom: 80px; /* same height as your footer */
+  padding-bottom: 80px; 
 }
